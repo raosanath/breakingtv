@@ -1,0 +1,8 @@
+2017-05-11 16:19:26,101     INFO utils.py @ 24 init_logger: Default logging initiated.
+2017-05-11 16:19:26,103     INFO main.py @ 24 connect_to_ddb: Connected Successfully to DDB
+2017-05-11 16:19:26,112    DEBUG connectionpool.py @ 818 _new_conn: Starting new HTTPS connection (1): sanathr.documents.azure.com
+2017-05-11 16:19:26,793    DEBUG connectionpool.py @ 395 _make_request: https://sanathr.documents.azure.com:443 "GET / HTTP/1.1" 200 None
+2017-05-11 16:19:26,799    DEBUG connectionpool.py @ 818 _new_conn: Starting new HTTPS connection (1): sanathr-northeurope.documents.azure.com
+2017-05-11 16:19:27,063    DEBUG connectionpool.py @ 395 _make_request: https://sanathr-northeurope.documents.azure.com:443 "GET //dbs/TVShows/colls/US_TV_Shows/docs/ HTTP/1.1" 200 None
+2017-05-11 16:19:27,064     INFO main.py @ 29 get_documents: House of Cards (US)
+2017-05-11 16:19:27,065     INFO main.py @ 29 get_documents: Marvel's Daredevil
